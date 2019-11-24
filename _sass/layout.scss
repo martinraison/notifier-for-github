@@ -73,6 +73,10 @@
 			"c c c c c c c c c c c c"
 			"f f f f f f f f f f f f";
 	}
+
+  .imageWrapper {					// Sets the background image in the header area
+    height: 765px;
+  }
 }
 
 .page {
@@ -89,6 +93,9 @@
 		grid-column: 1/-1;
 	}
 	
+  .imageWrapper {					// Sets the background image in the header area
+    height: 820px;
+  }
 } 
 
 header {
@@ -246,7 +253,7 @@ nav > ul li a:active {
 	grid-area: i;
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 75px;
+	padding-top: 83px;
 	align-content: flex-start;
 }
 
@@ -265,8 +272,8 @@ nav > ul li a:active {
 }
 
 .appIconLarge {
-	width: 120px;
-	height: 120px;
+	width: 103px;
+	height: 103px;
 	-webkit-clip-path: url(#shape120);
 	clip-path: url(#shape120);
 }
@@ -277,7 +284,7 @@ nav > ul li a:active {
 	flex-direction: column;
 	align-items: start;
 	justify-content: center;
-	margin-left: 30px;
+	margin-left: 20px;
 }
 
 .appName {
@@ -316,7 +323,7 @@ nav > ul li a:active {
 	font-weight: normal;
 	width: 100%;
 	align-items: flex-start;
-	margin-top: 45px;
+	margin-top: 37px;
 	flex: 0 1 auto;
 	line-height: 1.5;
 }
@@ -538,7 +545,7 @@ nav > ul li a:active {
 		flex-grow: 1;
 		flex-direction: row;
 		flex-wrap: wrap;
-		margin-top: 11px;
+		margin-top: 40px;
 	}
 
 	.feature {
