@@ -692,3 +692,19 @@ footer {
 .hidden {
 	display: none;
 }
+
+.releaseLink {
+  width: 272px;
+  height: 46px;
+  background-color: #ea7835;
+  border-radius: 25px;
+  color: #fff;
+  text-align: center;
+  line-height: 46px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.releaseLink:hover {
+  background-color: #ffb88e;
+}
